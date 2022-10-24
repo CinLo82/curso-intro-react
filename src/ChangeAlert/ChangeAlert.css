@@ -1,0 +1,48 @@
+.Modal-Container {
+    background: rgba(32,35,41,.8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.ChangeAlert-container {
+    width: 70%;
+    max-width: 400px;
+    background-color: #A7FFE4;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 5px solid #FFD6EC;
+  }
+  
+  .ChangeAlert-text {
+    color:  #FF74B1;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .ChangeAlert-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #A7FFE4;
+    font-weight: 400;
+    width: 300px;
+    height: 52px;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Montserrat';
+    border-radius: 10px;
+    background: #FF74B1;
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+  }

@@ -5,3 +5,7 @@
     padding: 48px;
     text-decoration: underline;
   }
+
+  .TodoCounter--loading {
+    opacity: 25%;
+  }
