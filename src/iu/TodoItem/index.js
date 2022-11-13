@@ -2,6 +2,7 @@ import React from 'react';
 import './TodoItem.css';
 import { GiCheckMark } from 'react-icons/gi';
 import { FaTrashAlt } from 'react-icons/fa';
+import { GrEdit } from 'react-icons/gr';
 
 function TodoItem(props) {
   return (
@@ -20,6 +21,13 @@ function TodoItem(props) {
         onClick={props.onDelete}
       >
         <FaTrashAlt  />
+      </span>
+
+      <span
+        className="Icon Icon-edit"
+        onClick={props.onEdit}
+      >
+        <GrEdit  />
       </span>
     </li>
   );
